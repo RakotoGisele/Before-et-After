@@ -1,0 +1,45 @@
+body {
+    background-color: blanchedalmond;
+}
+h1 {
+    text-align: center;
+}
+.hunt_image {
+    margin-left: 15px;
+    float: right;
+    padding-top: 0px;
+}
+.description {
+    text-align: center;
+}
+.description_titre::before {
+    content: "Description :";
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.nom::before {
+    content: "Hunter x Hunter :";
+    font-weight: bold;
+}
+.publication::before {
+    content: "Il est pré-publié : ";
+    font-weight: bold;
+}
+.version_vf::before {
+    content: "La version française :";
+    font-weight: bold;
+}
+.serie::before {
+    content: "La série :";
+    font-weight: bold;
+}
+.film::before {
+    content: "La licence :";
+    font-weight: bold;
+}
+.fin::after {
+    content: "Fin de la description.";
+    font-style: italic;
+    font-weight: bold;
+}
